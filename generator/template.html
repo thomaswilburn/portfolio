@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Thomas Wilburn dot Net</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link href="//fonts.googleapis.com/css?family=Lato:100,300,900" rel="stylesheet">
+  </head>
+  <body>
+
+    <header class="about">
+      <div class="hello">
+        
+        <img src="portrait.jpg" class="hello-image" width=120 height=180>
+        <h1>Hi.</h1>
+
+        <p>
+        <span class="large">I'm Thomas Wilburn,</span><br/>
+        and this is my web site.
+
+      </div>
+
+      <div class="bio">
+        {#bio}
+        <p>{value}
+        {/bio}
+      </div>
+    </header>
+
+    <main class="content">
+      <section class="dataviz">
+        <h2 id="dataviz">Interactive Storytelling</h2>
+        <ul>
+            {#interactive}
+            <li class="card">
+              <h3>
+                <a href="{url}">
+                  {title}
+                </a>
+              </h3>
+              <div class="description">
+                <p>
+                  {description}
+              </div>
+            </li>
+            {/interactive}
+        </ul>
+      </section>
+      
+      <section class="tools">
+        <h2 id="tools">Tools and Software</h2>
+        <ul>
+            {#tools}
+            <li class="card">
+              <h3>
+                <a href="{url}">
+                  {title}
+                </a>
+              </h3>
+              <div class="description">
+                <p>
+                    {description}
+              </div>
+            </li>
+            {/tools}
+        </ul>
+      </section>
+      
+      <section class="speaking">
+        <h2 id="speaking">Speaking</h2>
+        <ul>
+          {#speaking}
+          <li class="card">
+            <h3>{title}</h3>
+            <p>
+              {description}
+            <div class="speech-links">
+            {#links}
+              <a href="{value}">[{type}]</a>
+            {/links}
+          </li>
+          {/speaking}
+        </ul>
+      </section>
+
+      <section class="writing">
+        <h2 id="writing">Longform writing</h2>
+        <ul class="card">
+            {#writing}
+            <li>
+                <a href="{url}">{title}</a>
+                <cite>{description}</cite>
+            </li>
+            {/writing}
+        </ul>
+      </section>
+
+      <footer data-background="white">
+        <i class="closing"><img src="/bluechop.jpg"><br>this space intentionally left blank.</i>
+      </footer>
+    </main>
+
+    <script type="module" src="assets/main.js"></script>
+  </body>
+</html>

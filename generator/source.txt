@@ -1,0 +1,109 @@
+[+bio]
+
+I'm a data journalist with over a decade of experience in building rich, interactive storytelling. Currently, I'm the Senior Data Editor for <a href="https://chalkbeat.org">Chalkbeat</a>, a digital newsroom focused on education. Previously, I was the senior news apps developer for <a href="https://blog.apps.npr.org">NPR's News Apps team</a>. Before that, I created cutting-edge stories and tools on the Interactives team at The Seattle Times.
+          
+I've been a guest lecturer at <a href="http://washington.edu">The University of Washington</a>, worked at <a href="http://arena.net">ArenaNet</a> (makers of <i>Guild Wars 2</i>) and <a href="http://bigfishgames.com">Big Fish Games</a>, and ran the Multimedia Team at <a href="http://cqrollcall.com">Congressional Quarterly</a>.
+      
+In my spare time, I'm a <a href="http://www.fourstringriot.com">bassist</a>, a <a href="http://www.urbanartistry.org">b-boy</a>, and a <a href="http://www.milezero.org">blogger</a>. I like sandwiches, dogs, and lists with three items in them.
+      
+You can see samples of my work, sorted into <br/> <a href="#dataviz"class="large scroll">interactive storytelling</a>,<br/> <a href="#tools" class="large scroll">tools</a>,<br/> <a href="#speaking" class="large scroll">speaking</a>, and<br/> <a href="#writing" class="large scroll">writing</a>,<br/> view my <a href="http://thomaswilburn.net/resume.pdf">resume</a>, or check out some of my current projects at my <a href="http://github.com/thomaswilburn">GitHub repository</a>.
+
+Send questions, comments, and badly-spelled junk mail to: <a id="mailto" href=""></a>. My GPG key is available <a href="/thomaswilburn.asc">here</a>.
+
+[interactive]
+
+title: How the age-appropriate debate is altering curriculum in Tennessee
+url: https://projects.chalkbeat.org/2022/age-appropriate-books-critical-race-theory-tennessee-curriculum/
+description: Working with data reporter Kae Petrin and reporter Marta W. Aldrich in our Tennessee bureau, we created an opening data visualization to help readers understand what books were being challenged in Williamson County &mdash; and why. Ultimately, our goal was to go beyond simply quoting the rhetoric used in the censorship debate, and to focus on the actual actions being taken. You can read more about our process in <a href="https://dataviz.chalkbeat.org/2022/05/23/crt.html">Petrin's blog post about the project</a>
+
+title: NPR's 2020 election coverage
+url: https://apps.npr.org/elections20-interactive/
+description: 2020's elections were not like any before. NPR covered primaries for the first time, which meant building <a href="https://github.com/nprapps/elections20-primaries">a completely new rig</a> for the data pipeline and displays (I wrote about its development <a href="https://blog.apps.npr.org/2020/03/16/custom-elements-primaries.html">on the team blog</a>). I also led the rebuild of our <a href="https://github.com/nprapps/elections20-interactive">general elections tech</a> using the primary pipeline as a starting point and adding Preact for a single-page app on the front-end. Our results were among the fastest in the country, and we also took care to address concerns around voting by mail, misinformation about results, and the role of the electoral college. Developer Ruth Talbot wrote more about that <a href="https://blog.apps.npr.org/2020/12/30/elections-platform-rewrite.html">in a retrospective blog post</a>.
+
+title: NPR Book Concierge
+url: https://apps.npr.org/best-books/
+description: Started in 2013, the NPR Book Concierge has become a well-loved tradition. For 2019, I rewrote the architecture of the app in order to support the full archives &mdash; more than 2,000 books &mdash; in a single, flexible page. Read more about how I did it <a href="http://blog.apps.npr.org/2019/12/03/book-concierge.html">on the NPR News Apps blog</a>.
+
+title: White Lies
+url: https://apps.npr.org/white-lies/
+description: A premiere history and true-crime podcast from NPR, I worked with a multidisciplinary team to create the newsroom's first scrolling experience. With this interactive page, we hoped to intrigue listeners, but also create a resource that they could return to throughout the season. More details on how we wrangled audio and video for the story <a href="http://blog.apps.npr.org/2019/05/17/white-lies.html">on the team blog</a>.
+
+title: After the Flood
+url: https://apps.npr.org/ellicott-city/
+description: The floods that overtook downtown Ellicott City, Maryland, are a vivid demonstration of not only climate change's physical effects, but also the political and emotional struggles. Drawing on images and reporting from Ryan Kellman and Becky Hersher, I helped organize and build this scrolling experience, including a compelling presentation of security cam footage from the flood. More details from the development are available <a href="http://blog.apps.npr.org/2019/11/19/flow-control-building-accessible-video.html">here</a>.
+
+title: The Profanity Peak Wolves
+url: https://projects.seattletimes.com/2017/wsu-wolf-researcher-wielgus/
+description: Not only did they have one of the great trivia team names of all time, the Profanity Peak wolves were part of a Washington success story: wolves have mounted a successful comeback since being hunted almost to extension in the 1900's. But the story doesn't end so well for this pack&mdash;in this story, reported by Lynda V. Mapes, I downloaded DEM files, reverse-engineered reports from the Washington Department of Fish and Wildlife, and built a hand-rolled WebGL renderer to bring readers into the wolves' territory. A fuller write-up of my process is available on <a href="http://dev.seattletimes.com/2017/08/wolves-wsu-and-webgl-presenting-the-profanity-peak-pack/">the Seattle Times developer blog</a>.
+
+[tools]
+
+title: Dailygraphics Next
+url:
+description: The Dailygraphics rig at NPR is a long-standing tool for creating dataviz from Google Sheets and D3. Originally based on Python, this project was a from-scratch rewrite in Node that preserved the workflow of the tool, but modernized its UI, JavaScript build process, and cross-platform support. It's used by stations and newsrooms across the country.
+
+title: Caret
+url: /caret
+description: In 2013, I bought a Chromebook and was shocked to discover that there wasn't a good offline text editor available for Chrome OS, so I built one myself. Caret is a full-strength tabbed text editor built around the <a href="http://ace.c9.io">Ace editing component</a>, featuring fully-configurable menus and keybindings, open file memory, a command/go-to palette, and more. It had almost half a million users and was one of the best editors available on the platform, used in classrooms and by professional developers around the world until Google killed Chrome Apps for "lack of interest."
+
+title: Tarot
+url: https://dataviz.chalkbeat.org/powertoys/tarot
+description: As long as social networks privilege posts that have image content attached, either through page metadata or explicit uploads, newsrooms will need a way to generate visual versions of text stories. Tarot is in a long tradition of quote card generators, but written to be more flexible and easier to maintain through web components and canvas rendering. You can read more about its design in <a href="https://dataviz.chalkbeat.org/2022/03/14/tarot-architecture.html">a post on the Chalkbeat blog</a>.
+
+title: Betty
+url: https://github.com/nprapps/betty
+description: Many newsrooms use <a href="http://archieml.com/">ArchieML</a>, a lightweight markup language, to make it easier for reporters to author content for interactive pages. The original parser is built on top of regex and is difficult to extend, so I wrote Betty as a real three-stage parser that adds hooks for object assembly and a new, less-fragile syntax for multiline strings.
+
+[speaking]
+
+at: SRCCON 2018
+title: Visualization as a Civil Right
+description: Riffing off Marcy Sutton's <a href="https://marcysutton.com/accessibility-is-a-civil-right/">Accessibility is a Civil Right</a>,  this session set out to gather new strategies and best practices for creating accessible news visualizations. Attendees were taught how to use a mobile screen reader and given a chance to discover common mistakes by test driving their own projects.
+[.+links]
+slides: https://docs.google.com/presentation/d/1ayhuQHKZn5fcyLUTQchDrsFmlgurWa7KouI24ltLfo8/edit?usp=sharing
+notes: https://etherpad.opennews.org/p/SRCCON2018-visualization-civil-right
+transcript: https://aloft.nu/conf?name=srccon&session=2018-visualization-civil-right
+[]
+
+at: SeattleJS 2017
+title: Hacks and Hackers
+description: How do news teams create interesting, interactive storytelling on a deadline, without technical support or funding? The answers are in this talk, which breaks down the Seattle Times news app template, dissects our Google Apps Script strategy, and makes a passionate case for the web as the only future of digital journalism.
+[.+links]
+video: https://www.youtube.com/watch?v=e8_SgOj0DDo
+slides: https://docs.google.com/presentation/d/1_yBB3o4mbb_cEBDVnC5F12iYNt_wnWw6dWolJ9J3nYA/edit?usp=sharing
+[]
+
+at: Cascadia 2016
+title: Custom Elements in Production
+description: In this talk, I gave an overview of our successful use of custom elements and web components at the Seattle Times, and provided some rules of thumb for others who might be considering this exciting and intuitive new technique. Although the technology has changed since then, with the introduction of the V1 spec and widespread adoption, I'm proud to have been ahead of the curve.
+[.+links]
+video: https://www.youtube.com/watch?v=vpNKUYSeT7g
+slides: http://thomaswilburn.github.io/slide-dash-show/
+[]
+
+at: SRCCON 2016
+title: Designing News Apps for Humanity
+description: Increasingly relevant as we build news sites that are more customized, more dependent on third-party code, and more automated, this SRCCON session examined the dangers of algorithmic design as it applied to journalism. Inspired by Eric Meyer and Sarah Wachter-Boettcher's <a href="https://abookapart.com/products/design-for-real-life">Design for Real Life</a>, participants talked about how we've tried to safeguard readers, and how we've failed.
+[.+links]
+slides: https://docs.google.com/presentation/d/1wdZc-_851aSUpn7WgyHc9CdU4NM9jNAQy4-qkLXuweM/edit?usp=sharing
+notes: https://source.opennews.org/articles/designing-news-apps-humanity/
+[]
+
+[writing]
+
+title: They're not database rows; they're people
+description: Data journalism has long prioritized transparency over harm prevention. In this piece, I argue that we should be thinking more carefully about how we use and release personal information in our reporting, instead of treating that data as either a revenue source or simply the "cost of doing business."
+url: https://datajournalism.com/read/longreads/newsrooms-personal-information-policy
+
+title: Web Components at Work
+description: A short guidebook based on my experiences with writing and publishing web components at NPR, this text aims to introduce the concepts behind the tech, and present patterns that can make them more sustainable and conceptually coherent.
+url: https://thomaswilburn.github.io/wc-book
+
+title: It's time to rethink how we report election results
+description: After covering 2020, a lot of my experience with elections &mdash; up to that point, a significant part of my career and skillset &mdash; began to crystallize into a more coherent and critical perspective. In this piece for Source, I attempt to lay out guidelines that newsroom data teams can consider in order to prioritize the health of democracy over the horse race.
+url: https://source.opennews.org/articles/rethink-how-we-report-election-results/
+
+title: The Elegant Selection
+description: As the web platform has become increasingly capable, the tools we rely on for interactive and visual storytelling can be trimmed and in some cases eliminated. I wrote this free e-book to collect the strategies that I used at the Seattle Times to create lighter, faster, more efficient data journalism.
+url: https://thomaswilburn.github.io/viz-book
+
