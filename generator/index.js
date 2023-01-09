@@ -20,9 +20,15 @@ function process(template, data) {
       closing.lastIndex = tagRegex.lastIndex;
       var closed = closing.exec(template);
       splice = tagRegex.lastIndex = closed.index + closed[0].length;
-      var subtemplate = template.slice(start, closed.index)
-      var items = data[tag].map(d => process(subtemplate, d));
-      output += items.join("");
+      var subtemplate = template.slice(start, closed.index);
+      // is this truthy or an array?
+      var value = data[tag];
+      if (value instanceof Array) {
+        var items = value.map(d => process(subtemplate, d));
+        output += items.join("");
+      } else if (value) {
+        output += process(subtemplate, data);
+      }
     } else {
       output += data[tag];
       splice = match.index + match[0].length;
