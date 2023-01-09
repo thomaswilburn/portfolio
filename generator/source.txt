@@ -17,6 +17,11 @@ image: ./assets/images/crt.jpg
 url: https://projects.chalkbeat.org/2022/age-appropriate-books-critical-race-theory-tennessee-curriculum/
 description: Working with data reporter Kae Petrin and reporter Marta W. Aldrich in our Tennessee bureau, we created an opening data visualization to help readers understand what books were being challenged in Williamson County &mdash; and why. Ultimately, our goal was to go beyond simply quoting the rhetoric used in the censorship debate, and to focus on the actual actions being taken. You can read more about our process in <a href="https://dataviz.chalkbeat.org/2022/05/23/crt.html">Petrin's blog post about the project</a>.
 
+title: The Joy Generator
+image: ./assets/images/joy.jpg
+url: https://apps.npr.org/joy-generator/
+description: NPR's science desk had a simple goal: to tell stories that would talk about the science of joy: what makes us happy, and why. To achieve that goal, the News Apps team built an interactive, mobile-first experience that combined audio, video, animation, and interactive art, split into bite-sized chapters. You can read more on the technical implementation (and the many browser bugs we conquered) <a href="http://blog.apps.npr.org/2021/08/31/joy-generator.html">in this post from myself and Connie Jin</a>.
+
 title: NPR's 2020 election coverage
 image: ./assets/images/election2020.jpg
 url: https://apps.npr.org/elections20-interactive/
