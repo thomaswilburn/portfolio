@@ -13,26 +13,32 @@ Send questions, comments, and badly-spelled junk mail to: <a id="mailto" href=""
 [interactive]
 
 title: How the age-appropriate debate is altering curriculum in Tennessee
+image: ./assets/images/crt.jpg
 url: https://projects.chalkbeat.org/2022/age-appropriate-books-critical-race-theory-tennessee-curriculum/
-description: Working with data reporter Kae Petrin and reporter Marta W. Aldrich in our Tennessee bureau, we created an opening data visualization to help readers understand what books were being challenged in Williamson County &mdash; and why. Ultimately, our goal was to go beyond simply quoting the rhetoric used in the censorship debate, and to focus on the actual actions being taken. You can read more about our process in <a href="https://dataviz.chalkbeat.org/2022/05/23/crt.html">Petrin's blog post about the project</a>
+description: Working with data reporter Kae Petrin and reporter Marta W. Aldrich in our Tennessee bureau, we created an opening data visualization to help readers understand what books were being challenged in Williamson County &mdash; and why. Ultimately, our goal was to go beyond simply quoting the rhetoric used in the censorship debate, and to focus on the actual actions being taken. You can read more about our process in <a href="https://dataviz.chalkbeat.org/2022/05/23/crt.html">Petrin's blog post about the project</a>.
 
 title: NPR's 2020 election coverage
+image: ./assets/images/election2020.jpg
 url: https://apps.npr.org/elections20-interactive/
 description: 2020's elections were not like any before. NPR covered primaries for the first time, which meant building <a href="https://github.com/nprapps/elections20-primaries">a completely new rig</a> for the data pipeline and displays (I wrote about its development <a href="https://blog.apps.npr.org/2020/03/16/custom-elements-primaries.html">on the team blog</a>). I also led the rebuild of our <a href="https://github.com/nprapps/elections20-interactive">general elections tech</a> using the primary pipeline as a starting point and adding Preact for a single-page app on the front-end. Our results were among the fastest in the country, and we also took care to address concerns around voting by mail, misinformation about results, and the role of the electoral college. Developer Ruth Talbot wrote more about that <a href="https://blog.apps.npr.org/2020/12/30/elections-platform-rewrite.html">in a retrospective blog post</a>.
 
 title: NPR Book Concierge
+image: ./assets/images/concierge.jpg
 url: https://apps.npr.org/best-books/
 description: Started in 2013, the NPR Book Concierge has become a well-loved tradition. For 2019, I rewrote the architecture of the app in order to support the full archives &mdash; more than 2,000 books &mdash; in a single, flexible page. Read more about how I did it <a href="http://blog.apps.npr.org/2019/12/03/book-concierge.html">on the NPR News Apps blog</a>.
 
 title: White Lies
+image: ./assets/images/whitelies.jpg
 url: https://apps.npr.org/white-lies/
 description: A premiere history and true-crime podcast from NPR, I worked with a multidisciplinary team to create the newsroom's first scrolling experience. With this interactive page, we hoped to intrigue listeners, but also create a resource that they could return to throughout the season. More details on how we wrangled audio and video for the story <a href="http://blog.apps.npr.org/2019/05/17/white-lies.html">on the team blog</a>.
 
 title: After the Flood
+image: ./assets/images/ellicott.jpg
 url: https://apps.npr.org/ellicott-city/
 description: The floods that overtook downtown Ellicott City, Maryland, are a vivid demonstration of not only climate change's physical effects, but also the political and emotional struggles. Drawing on images and reporting from Ryan Kellman and Becky Hersher, I helped organize and build this scrolling experience, including a compelling presentation of security cam footage from the flood. More details from the development are available <a href="http://blog.apps.npr.org/2019/11/19/flow-control-building-accessible-video.html">here</a>.
 
 title: The Profanity Peak Wolves
+image: ./assets/images/wolves.jpg
 url: https://projects.seattletimes.com/2017/wsu-wolf-researcher-wielgus/
 description: Not only did they have one of the great trivia team names of all time, the Profanity Peak wolves were part of a Washington success story: wolves have mounted a successful comeback since being hunted almost to extension in the 1900's. But the story doesn't end so well for this pack&mdash;in this story, reported by Lynda V. Mapes, I downloaded DEM files, reverse-engineered reports from the Washington Department of Fish and Wildlife, and built a hand-rolled WebGL renderer to bring readers into the wolves' territory. A fuller write-up of my process is available on <a href="http://dev.seattletimes.com/2017/08/wolves-wsu-and-webgl-presenting-the-profanity-peak-pack/">the Seattle Times developer blog</a>.
 

@@ -127,7 +127,7 @@ section.speaking {
   background: white;
   color: #444;
   box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.3);
-  padding: 8px 16px 24px;
+  padding: 8px 16px 32px;
   z-index: 99;
   position: relative;
   -webkit-transform-origin: center;
@@ -149,16 +149,10 @@ li.card {
 }
 
 .card h3 {
-  padding: 8px 0;
+  padding: 0 0 8px 0;
   margin: 0;
   border-bottom: 1px solid #EEE;
-  font-weight: normal;
   font-size: 20px;
-}
-
-.card .description {
-  display: flex;
-  padding-top: 1em;
 }
 
 @media (max-device-width: 600px) {
@@ -167,30 +161,14 @@ li.card {
   }
 }
 
-.card .icon {
-  flex-shrink: 0;
-  margin: 0 1em 0 0;
-}
-
-@media (max-device-width: 600px) {
-  .card .icon {
-    float: left;
-  }
-}
-
-.card .screenshot {
+.card img {
   display: block;
-  margin: 16px 0;
-  border: 1px solid #654873;
-}
-
-.card .screenshot img {
-  display: block;
-  width: 100%;
+  margin: 8px 0;
+  max-width: 100%;
 }
 
 .card p {
-  padding: 0;
+  padding: 16px 0 0;
   margin: 0;
 }
 

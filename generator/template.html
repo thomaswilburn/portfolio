@@ -34,6 +34,7 @@
         <ul>
             {#interactive}
             <li class="card">
+              <img src="{image}" alt="" loading="lazy">
               <h3>
                 <a href="{url}">
                   {title}
@@ -86,11 +87,11 @@
 
       <section class="writing">
         <h2 id="writing">Longform writing</h2>
-        <ul class="card">
-            {#writing}
-            <li>
-                <a href="{url}">{title}</a>
-                <cite>{description}</cite>
+        <ul>
+          {#writing}
+            <li class="card">
+                <a href="{url}"><h3>{title}</h3></a>
+                <p>{description}
             </li>
             {/writing}
         </ul>
